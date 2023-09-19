@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CECC1B4B-34FF-4D8D-977E-F2921858A6BC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AAEA98C-EB87-4AE7-9026-4A9E8754FE5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoginProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7AAEA98C-EB87-4AE7-9026-4A9E8754FE5F - d3edde1ce29710e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LoginProject.ViewController"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choejeong-eun/Desktop/inflearn-ios/LoginProject/LoginProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7AAEA98C-EB87-4AE7-9026-4A9E8754FE5F - abdbcf478836f4cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LoginProject.ViewController"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choejeong-eun/Desktop/inflearn-ios/LoginProject/LoginProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "7AAEA98C-EB87-4AE7-9026-4A9E8754FE5F - 19d34275048b9b16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LoginProject.ViewController&gt;"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choejeong-eun/Desktop/inflearn-ios/LoginProject/LoginProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "7AAEA98C-EB87-4AE7-9026-4A9E8754FE5F - 18724dbb06660376"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LoginProject.ViewController&gt;"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choejeong-eun/Desktop/inflearn-ios/LoginProject/LoginProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "7AAEA98C-EB87-4AE7-9026-4A9E8754FE5F - 7916b66dc5d52035"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginProject.ViewController.__deallocating_deinit"
+                  moduleName = "LoginProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choejeong-eun/Desktop/inflearn-ios/LoginProject/LoginProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
