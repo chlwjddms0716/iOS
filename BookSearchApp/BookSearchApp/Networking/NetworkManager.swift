@@ -19,6 +19,7 @@ public struct NetworkManager{
     private init(){}
     
     typealias NetworkCompletion = (Result<[Book], NetworkError>) -> (Void)
+    typealias BookDescriptionNetworkCompletion = (Result<String, NetworkError>) -> (Void)
     
     func fetchBook(completion: @escaping NetworkCompletion) {
         
@@ -37,6 +38,77 @@ public struct NetworkManager{
             completion(result)
         }
     }
+    
+    func getBookDescription(isbn: String, completion: @escaping BookDescriptionNetworkCompletion ){
+        
+        let url = "\(BookApi.searchBookDescriptionURL)&\(BookApi.apiKeyParam)&isbn13=\(isbn)"
+        print(url)
+        getBookDescription(url) {
+            result in
+            completion(result)
+        }
+    }
+    
+    func getBookDescription(_ searchUrl: String, completion: @escaping BookDescriptionNetworkCompletion ){
+        
+        guard let url = URL(string: searchUrl) else { return }
+        
+        let session = URLSession(configuration: .default)
+        session.dataTask(with: url){ (data, response, error) in
+            
+            if error != nil{
+                completion(.failure(.networkingError))
+                return
+            }
+            
+            guard let safeData = data else {
+                completion(.failure(.dataError))
+                return
+            }
+            
+            if let bookDescription = parseJSON2(safeData){
+                completion(.success(bookDescription))
+                return
+            }
+            else
+            {
+                completion(.failure(.parseError))
+                return
+            }
+        }.resume()
+        
+    }
+    
+    func parseJSON2(_ bookData: Data) -> String? {
+        
+        do {
+            
+            // 스위프트4 버전까지
+            // 딕셔너리 형태로 분석
+            // JSONSerialization
+            if let json = try JSONSerialization.jsonObject(with: bookData) as? [String: Any] {
+                if let boxOfficeResult = json["response"] as? [String: Any] {
+                    if let dailyBoxOfficeList = boxOfficeResult["detail"] as? [[String: Any]] {
+                        for item in dailyBoxOfficeList {
+                            if let bookData = item["book"] as? [String: Any] {
+                                let descripData = bookData["description"] as! String?
+                                
+                                return descripData
+                            }
+                        }
+                    }
+                }
+            }
+            
+            return nil
+            
+        } catch {
+            
+            return nil
+        }
+        
+    }
+    
     
     func getBook(_ searchUrl: String, completion: @escaping NetworkCompletion ){
         
@@ -74,7 +146,7 @@ public struct NetworkManager{
             let bookData = try JSONDecoder().decode(ResponseData.self, from: bookData)
             
             var bookArray: [Book] = []
-          
+            
             for item in  bookData.response.docs{
                 if let book = item.doc {
                     bookArray.insert(book, at: bookArray.count)
@@ -90,3 +162,4 @@ public struct NetworkManager{
     }
     
 }
+

@@ -35,11 +35,13 @@ struct Book: Codable {
     let ranking, title, authors, publisher: String?
     let isbn: String?
     let bookImageURL: String?
+    let description: String?
 
     enum CodingKeys: String, CodingKey {
         case ranking, authors, publisher, bookImageURL
         case title = "bookname"
         case isbn = "isbn13"
+        case description
     }
 }
 

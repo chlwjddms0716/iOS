@@ -65,6 +65,14 @@ extension ViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "BookDetailViewController") as? BookDetailViewController else { return }
+        vc.book = bookArray[indexPath.row]
+        //vc.modalPresentationStyle = .
+        present(vc, animated: true)
+    }
 }
 
 extension ViewController: UITableViewDataSource{

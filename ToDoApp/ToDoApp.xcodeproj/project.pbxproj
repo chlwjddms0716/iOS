@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84FE6CDF2AB983BE0081AAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6CDE2AB983BE0081AAAC /* AppDelegate.swift */; };
-		84FE6CE12AB983BE0081AAAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6CE02AB983BE0081AAAC /* SceneDelegate.swift */; };
-		84FE6CE32AB983BE0081AAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6CE22AB983BE0081AAAC /* ViewController.swift */; };
-		84FE6CE62AB983BE0081AAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FE6CE42AB983BE0081AAAC /* Main.storyboard */; };
-		84FE6CE82AB983BF0081AAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FE6CE72AB983BF0081AAAC /* Assets.xcassets */; };
-		84FE6CEB2AB983BF0081AAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FE6CE92AB983BF0081AAAC /* LaunchScreen.storyboard */; };
-		84FE6CFA2AB98F400081AAAC /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6CF82AB98F400081AAAC /* BookTableViewCell.swift */; };
-		84FE6CFB2AB98F400081AAAC /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FE6CF92AB98F400081AAAC /* BookTableViewCell.xib */; };
-		84FE6CFE2AB992540081AAAC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6CFD2AB992540081AAAC /* Book.swift */; };
-		84FE6D002AB995A00081AAAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6CFF2AB995A00081AAAC /* Constants.swift */; };
-		84FE6D022AB996B00081AAAC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6D012AB996B00081AAAC /* NetworkManager.swift */; };
-		84FE6D042AB9A8E90081AAAC /* BookResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6D032AB9A8E90081AAAC /* BookResultViewController.swift */; };
-		84FE6D062AB9AA3A0081AAAC /* BookResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6D052AB9AA3A0081AAAC /* BookResultCollectionViewCell.swift */; };
-		84FE6D082AB9B86F0081AAAC /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE6D072AB9B86F0081AAAC /* BookDetailViewController.swift */; };
+		84CD8E512ABEC15B00CCD5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E502ABEC15B00CCD5F7 /* AppDelegate.swift */; };
+		84CD8E532ABEC15B00CCD5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E522ABEC15B00CCD5F7 /* SceneDelegate.swift */; };
+		84CD8E552ABEC15B00CCD5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E542ABEC15B00CCD5F7 /* ViewController.swift */; };
+		84CD8E582ABEC15B00CCD5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD8E562ABEC15B00CCD5F7 /* Main.storyboard */; };
+		84CD8E5B2ABEC15B00CCD5F7 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E592ABEC15B00CCD5F7 /* ToDoApp.xcdatamodeld */; };
+		84CD8E5D2ABEC15C00CCD5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CD8E5C2ABEC15C00CCD5F7 /* Assets.xcassets */; };
+		84CD8E602ABEC15C00CCD5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD8E5E2ABEC15C00CCD5F7 /* LaunchScreen.storyboard */; };
+		84CD8E6C2ABEF6B800CCD5F7 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E6B2ABEF6B800CCD5F7 /* ToDoTableViewCell.swift */; };
+		84CD8E6E2ABEF8EF00CCD5F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E6D2ABEF8EF00CCD5F7 /* DetailViewController.swift */; };
+		84CD8E712ABEF98E00CCD5F7 /* ToDoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E6F2ABEF98E00CCD5F7 /* ToDoData+CoreDataClass.swift */; };
+		84CD8E722ABEF98E00CCD5F7 /* ToDoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E702ABEF98E00CCD5F7 /* ToDoData+CoreDataProperties.swift */; };
+		84CD8E742ABEFA4900CCD5F7 /* ToDoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E732ABEFA4900CCD5F7 /* ToDoDataManager.swift */; };
+		84CD8E762ABEFF2A00CCD5F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E752ABEFF2A00CCD5F7 /* Constants.swift */; };
+		84CD8E782ABF02FE00CCD5F7 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8E772ABF02FE00CCD5F7 /* MyColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84FE6CDB2AB983BE0081AAAC /* BookSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FE6CDE2AB983BE0081AAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84FE6CE02AB983BE0081AAAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84FE6CE22AB983BE0081AAAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84FE6CE52AB983BE0081AAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84FE6CE72AB983BF0081AAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84FE6CEA2AB983BF0081AAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84FE6CEC2AB983BF0081AAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84FE6CF82AB98F400081AAAC /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
-		84FE6CF92AB98F400081AAAC /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
-		84FE6CFD2AB992540081AAAC /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		84FE6CFF2AB995A00081AAAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		84FE6D012AB996B00081AAAC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		84FE6D032AB9A8E90081AAAC /* BookResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResultViewController.swift; sourceTree = "<group>"; };
-		84FE6D052AB9AA3A0081AAAC /* BookResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResultCollectionViewCell.swift; sourceTree = "<group>"; };
-		84FE6D072AB9B86F0081AAAC /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		84CD8E4D2ABEC15B00CCD5F7 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD8E502ABEC15B00CCD5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CD8E522ABEC15B00CCD5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84CD8E542ABEC15B00CCD5F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CD8E572ABEC15B00CCD5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CD8E5A2ABEC15B00CCD5F7 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
+		84CD8E5C2ABEC15C00CCD5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CD8E5F2ABEC15C00CCD5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CD8E612ABEC15C00CCD5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD8E6B2ABEF6B800CCD5F7 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		84CD8E6D2ABEF8EF00CCD5F7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84CD8E6F2ABEF98E00CCD5F7 /* ToDoData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84CD8E702ABEF98E00CCD5F7 /* ToDoData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84CD8E732ABEFA4900CCD5F7 /* ToDoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDataManager.swift; sourceTree = "<group>"; };
+		84CD8E752ABEFF2A00CCD5F7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84CD8E772ABF02FE00CCD5F7 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84FE6CD82AB983BE0081AAAC /* Frameworks */ = {
+		84CD8E4A2ABEC15B00CCD5F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,80 +53,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84FE6CD22AB983BE0081AAAC = {
+		84CD8E442ABEC15B00CCD5F7 = {
 			isa = PBXGroup;
 			children = (
-				84FE6CDD2AB983BE0081AAAC /* BookSearchApp */,
-				84FE6CDC2AB983BE0081AAAC /* Products */,
+				84CD8E4F2ABEC15B00CCD5F7 /* ToDoApp */,
+				84CD8E4E2ABEC15B00CCD5F7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84FE6CDC2AB983BE0081AAAC /* Products */ = {
+		84CD8E4E2ABEC15B00CCD5F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84FE6CDB2AB983BE0081AAAC /* BookSearchApp.app */,
+				84CD8E4D2ABEC15B00CCD5F7 /* ToDoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84FE6CDD2AB983BE0081AAAC /* BookSearchApp */ = {
+		84CD8E4F2ABEC15B00CCD5F7 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
-				84FE6CDE2AB983BE0081AAAC /* AppDelegate.swift */,
-				84FE6CE02AB983BE0081AAAC /* SceneDelegate.swift */,
-				84FE6CF72AB9842A0081AAAC /* Helpers */,
-				84FE6CF62AB984220081AAAC /* Networking */,
-				84FE6CF42AB984120081AAAC /* Models */,
-				84FE6CF22AB984060081AAAC /* Views */,
-				84FE6CF32AB9840B0081AAAC /* Controllers */,
-				84FE6CE72AB983BF0081AAAC /* Assets.xcassets */,
-				84FE6CE92AB983BF0081AAAC /* LaunchScreen.storyboard */,
-				84FE6CEC2AB983BF0081AAAC /* Info.plist */,
+				84CD8E502ABEC15B00CCD5F7 /* AppDelegate.swift */,
+				84CD8E522ABEC15B00CCD5F7 /* SceneDelegate.swift */,
+				84CD8E6A2ABEF3E700CCD5F7 /* Helpers */,
+				84CD8E692ABEF3E300CCD5F7 /* Mdoels */,
+				84CD8E672ABEF3CD00CCD5F7 /* Views */,
+				84CD8E682ABEF3D800CCD5F7 /* Conrollers */,
+				84CD8E5C2ABEC15C00CCD5F7 /* Assets.xcassets */,
+				84CD8E5E2ABEC15C00CCD5F7 /* LaunchScreen.storyboard */,
+				84CD8E612ABEC15C00CCD5F7 /* Info.plist */,
+				84CD8E592ABEC15B00CCD5F7 /* ToDoApp.xcdatamodeld */,
 			);
-			path = BookSearchApp;
+			path = ToDoApp;
 			sourceTree = "<group>";
 		};
-		84FE6CF22AB984060081AAAC /* Views */ = {
+		84CD8E672ABEF3CD00CCD5F7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84FE6CE42AB983BE0081AAAC /* Main.storyboard */,
-				84FE6CF82AB98F400081AAAC /* BookTableViewCell.swift */,
-				84FE6CF92AB98F400081AAAC /* BookTableViewCell.xib */,
-				84FE6D052AB9AA3A0081AAAC /* BookResultCollectionViewCell.swift */,
+				84CD8E562ABEC15B00CCD5F7 /* Main.storyboard */,
+				84CD8E6B2ABEF6B800CCD5F7 /* ToDoTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		84FE6CF32AB9840B0081AAAC /* Controllers */ = {
+		84CD8E682ABEF3D800CCD5F7 /* Conrollers */ = {
 			isa = PBXGroup;
 			children = (
-				84FE6CE22AB983BE0081AAAC /* ViewController.swift */,
-				84FE6D032AB9A8E90081AAAC /* BookResultViewController.swift */,
-				84FE6D072AB9B86F0081AAAC /* BookDetailViewController.swift */,
+				84CD8E542ABEC15B00CCD5F7 /* ViewController.swift */,
+				84CD8E6D2ABEF8EF00CCD5F7 /* DetailViewController.swift */,
 			);
-			path = Controllers;
+			path = Conrollers;
 			sourceTree = "<group>";
 		};
-		84FE6CF42AB984120081AAAC /* Models */ = {
+		84CD8E692ABEF3E300CCD5F7 /* Mdoels */ = {
 			isa = PBXGroup;
 			children = (
-				84FE6CFD2AB992540081AAAC /* Book.swift */,
+				84CD8E6F2ABEF98E00CCD5F7 /* ToDoData+CoreDataClass.swift */,
+				84CD8E702ABEF98E00CCD5F7 /* ToDoData+CoreDataProperties.swift */,
+				84CD8E732ABEFA4900CCD5F7 /* ToDoDataManager.swift */,
 			);
-			path = Models;
+			path = Mdoels;
 			sourceTree = "<group>";
 		};
-		84FE6CF62AB984220081AAAC /* Networking */ = {
+		84CD8E6A2ABEF3E700CCD5F7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				84FE6D012AB996B00081AAAC /* NetworkManager.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		84FE6CF72AB9842A0081AAAC /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				84FE6CFF2AB995A00081AAAC /* Constants.swift */,
+				84CD8E752ABEFF2A00CCD5F7 /* Constants.swift */,
+				84CD8E772ABF02FE00CCD5F7 /* MyColor.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -134,39 +126,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84FE6CDA2AB983BE0081AAAC /* BookSearchApp */ = {
+		84CD8E4C2ABEC15B00CCD5F7 /* ToDoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FE6CEF2AB983BF0081AAAC /* Build configuration list for PBXNativeTarget "BookSearchApp" */;
+			buildConfigurationList = 84CD8E642ABEC15C00CCD5F7 /* Build configuration list for PBXNativeTarget "ToDoApp" */;
 			buildPhases = (
-				84FE6CD72AB983BE0081AAAC /* Sources */,
-				84FE6CD82AB983BE0081AAAC /* Frameworks */,
-				84FE6CD92AB983BE0081AAAC /* Resources */,
+				84CD8E492ABEC15B00CCD5F7 /* Sources */,
+				84CD8E4A2ABEC15B00CCD5F7 /* Frameworks */,
+				84CD8E4B2ABEC15B00CCD5F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BookSearchApp;
-			productName = BookSearchApp;
-			productReference = 84FE6CDB2AB983BE0081AAAC /* BookSearchApp.app */;
+			name = ToDoApp;
+			productName = ToDoApp;
+			productReference = 84CD8E4D2ABEC15B00CCD5F7 /* ToDoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84FE6CD32AB983BE0081AAAC /* Project object */ = {
+		84CD8E452ABEC15B00CCD5F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					84FE6CDA2AB983BE0081AAAC = {
+					84CD8E4C2ABEC15B00CCD5F7 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 84FE6CD62AB983BE0081AAAC /* Build configuration list for PBXProject "BookSearchApp" */;
+			buildConfigurationList = 84CD8E482ABEC15B00CCD5F7 /* Build configuration list for PBXProject "ToDoApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,63 +166,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 84FE6CD22AB983BE0081AAAC;
-			productRefGroup = 84FE6CDC2AB983BE0081AAAC /* Products */;
+			mainGroup = 84CD8E442ABEC15B00CCD5F7;
+			productRefGroup = 84CD8E4E2ABEC15B00CCD5F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84FE6CDA2AB983BE0081AAAC /* BookSearchApp */,
+				84CD8E4C2ABEC15B00CCD5F7 /* ToDoApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84FE6CD92AB983BE0081AAAC /* Resources */ = {
+		84CD8E4B2ABEC15B00CCD5F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FE6CFB2AB98F400081AAAC /* BookTableViewCell.xib in Resources */,
-				84FE6CEB2AB983BF0081AAAC /* LaunchScreen.storyboard in Resources */,
-				84FE6CE82AB983BF0081AAAC /* Assets.xcassets in Resources */,
-				84FE6CE62AB983BE0081AAAC /* Main.storyboard in Resources */,
+				84CD8E602ABEC15C00CCD5F7 /* LaunchScreen.storyboard in Resources */,
+				84CD8E5D2ABEC15C00CCD5F7 /* Assets.xcassets in Resources */,
+				84CD8E582ABEC15B00CCD5F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84FE6CD72AB983BE0081AAAC /* Sources */ = {
+		84CD8E492ABEC15B00CCD5F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FE6CFA2AB98F400081AAAC /* BookTableViewCell.swift in Sources */,
-				84FE6CE32AB983BE0081AAAC /* ViewController.swift in Sources */,
-				84FE6D042AB9A8E90081AAAC /* BookResultViewController.swift in Sources */,
-				84FE6CDF2AB983BE0081AAAC /* AppDelegate.swift in Sources */,
-				84FE6D082AB9B86F0081AAAC /* BookDetailViewController.swift in Sources */,
-				84FE6D022AB996B00081AAAC /* NetworkManager.swift in Sources */,
-				84FE6CFE2AB992540081AAAC /* Book.swift in Sources */,
-				84FE6D062AB9AA3A0081AAAC /* BookResultCollectionViewCell.swift in Sources */,
-				84FE6CE12AB983BE0081AAAC /* SceneDelegate.swift in Sources */,
-				84FE6D002AB995A00081AAAC /* Constants.swift in Sources */,
+				84CD8E552ABEC15B00CCD5F7 /* ViewController.swift in Sources */,
+				84CD8E712ABEF98E00CCD5F7 /* ToDoData+CoreDataClass.swift in Sources */,
+				84CD8E742ABEFA4900CCD5F7 /* ToDoDataManager.swift in Sources */,
+				84CD8E782ABF02FE00CCD5F7 /* MyColor.swift in Sources */,
+				84CD8E512ABEC15B00CCD5F7 /* AppDelegate.swift in Sources */,
+				84CD8E532ABEC15B00CCD5F7 /* SceneDelegate.swift in Sources */,
+				84CD8E762ABEFF2A00CCD5F7 /* Constants.swift in Sources */,
+				84CD8E6E2ABEF8EF00CCD5F7 /* DetailViewController.swift in Sources */,
+				84CD8E722ABEF98E00CCD5F7 /* ToDoData+CoreDataProperties.swift in Sources */,
+				84CD8E5B2ABEC15B00CCD5F7 /* ToDoApp.xcdatamodeld in Sources */,
+				84CD8E6C2ABEF6B800CCD5F7 /* ToDoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84FE6CE42AB983BE0081AAAC /* Main.storyboard */ = {
+		84CD8E562ABEC15B00CCD5F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84FE6CE52AB983BE0081AAAC /* Base */,
+				84CD8E572ABEC15B00CCD5F7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84FE6CE92AB983BF0081AAAC /* LaunchScreen.storyboard */ = {
+		84CD8E5E2ABEC15C00CCD5F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84FE6CEA2AB983BF0081AAAC /* Base */,
+				84CD8E5F2ABEC15C00CCD5F7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -238,7 +230,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84FE6CED2AB983BF0081AAAC /* Debug */ = {
+		84CD8E622ABEC15C00CCD5F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		84FE6CEE2AB983BF0081AAAC /* Release */ = {
+		84CD8E632ABEC15C00CCD5F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +349,7 @@
 			};
 			name = Release;
 		};
-		84FE6CF02AB983BF0081AAAC /* Debug */ = {
+		84CD8E652ABEC15C00CCD5F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -366,7 +358,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ZGNSW44CF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BookSearchApp/Info.plist;
+				INFOPLIST_FILE = ToDoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -378,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cje.BookSearchApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cje.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -386,7 +378,7 @@
 			};
 			name = Debug;
 		};
-		84FE6CF12AB983BF0081AAAC /* Release */ = {
+		84CD8E662ABEC15C00CCD5F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -395,7 +387,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ZGNSW44CF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BookSearchApp/Info.plist;
+				INFOPLIST_FILE = ToDoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -407,7 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cje.BookSearchApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cje.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -418,25 +410,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84FE6CD62AB983BE0081AAAC /* Build configuration list for PBXProject "BookSearchApp" */ = {
+		84CD8E482ABEC15B00CCD5F7 /* Build configuration list for PBXProject "ToDoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FE6CED2AB983BF0081AAAC /* Debug */,
-				84FE6CEE2AB983BF0081AAAC /* Release */,
+				84CD8E622ABEC15C00CCD5F7 /* Debug */,
+				84CD8E632ABEC15C00CCD5F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FE6CEF2AB983BF0081AAAC /* Build configuration list for PBXNativeTarget "BookSearchApp" */ = {
+		84CD8E642ABEC15C00CCD5F7 /* Build configuration list for PBXNativeTarget "ToDoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FE6CF02AB983BF0081AAAC /* Debug */,
-				84FE6CF12AB983BF0081AAAC /* Release */,
+				84CD8E652ABEC15C00CCD5F7 /* Debug */,
+				84CD8E662ABEC15C00CCD5F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84CD8E592ABEC15B00CCD5F7 /* ToDoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84CD8E5A2ABEC15B00CCD5F7 /* ToDoApp.xcdatamodel */,
+			);
+			currentVersion = 84CD8E5A2ABEC15B00CCD5F7 /* ToDoApp.xcdatamodel */;
+			path = ToDoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 84FE6CD32AB983BE0081AAAC /* Project object */;
+	rootObject = 84CD8E452ABEC15B00CCD5F7 /* Project object */;
 }
