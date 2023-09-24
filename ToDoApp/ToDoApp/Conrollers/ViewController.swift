@@ -31,6 +31,10 @@ class ViewController: UIViewController {
         toDoTableView.dataSource = self
         
         toDoTableView.separatorStyle = .none
+        
+       
+        toDoTableView.rowHeight = UITableView.automaticDimension
+        toDoTableView.estimatedRowHeight = 300
     }
 
     func configureUI(){
@@ -61,9 +65,21 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableView.automaticDimension
+        return toDoTableView.rowHeight
     }
    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            toDoDataManager.deleteToDoData(data: toDoDataManager.getToDoDataList()[indexPath.row]) {
+                print("삭제 완료")
+            }
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+        } else if editingStyle == .insert {
+        }
+    }
+    
+  
 }
 
 extension ViewController: UITableViewDataSource{
